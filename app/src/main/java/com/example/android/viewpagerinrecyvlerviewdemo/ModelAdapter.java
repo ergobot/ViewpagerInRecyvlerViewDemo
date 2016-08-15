@@ -21,8 +21,8 @@ public class ModelAdapter extends RecyclerView.Adapter<ModelAdapter.MyViewHolder
 
         public MyViewHolder(View view) {
             super(view);
-            name = (TextView) view.findViewById(R.id.title);
-            description = (TextView) view.findViewById(R.id.composer);
+            name = (TextView) view.findViewById(R.id.name);
+            description = (TextView) view.findViewById(R.id.description);
         }
 
         public void bind(final Model item, final OnItemClickListener listener, final int position) {
